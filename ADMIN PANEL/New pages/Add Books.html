@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Manage Books</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!--  <link rel="stylesheet" href="/home/aiktc/Desktop/dashboardref.css">-->
+   <link rel="stylesheet" href="C:\Users\MUHAMMEDI\Desktop\FINAL YEAR PROJECT\ADMIN PANEL\dashboardref.css"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 650px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #dddddd; /*Nav color*/
+     height: 100%;
+    }
+ </style>
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-2 sidenav  hidden-xs">
+      <h2><b>Advanced CMS</b></h2>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="inactive"><a href="#section1">Dashboard</a></li>
+  
+  
+ <li class="inactive"><a href="#section1" class="dropbtn">Manage Faculty <span class="caret"></span></a></li>
+ <div class="dropdown">
+   <div class="dropdown-content">
+      <a href="#">ADD Faculty</a>
+     <a href="#">DELETE Faculty</a>
+    </div>
+</div>
+
+
+     
+     
+   <li class="active"><a href="#section1">Manage Books <span class="caret"></span></a></li>
+    <ul class="dropdown-menu">
+      <li><a href="#">ADD Books</a></li>
+      <li><a href="#">DELETE Books</a></li>
+    </ul>
+
+        
+      
+    <li class="inactive"><a href="#section1">Manage Notices <span class="caret"></span></a></li>
+    <ul class="dropdown-menu">
+      <li><a href="#">ADD Notices</a></li>
+      <li><a href="#">DELETE Notices</a></li>
+    </ul>
+ 
+      
+  
+   <li class="inactive"><a href="#section1">Manage Videos <span class="caret"></span></a></li>
+    <ul class="dropdown-menu">
+      <li><a href="#">ADD Videos</a></li>
+      <li><a href="#">DELETE Videos</a></li>
+    </ul>
+
+    
+      
+  
+   <li class="inactive"><a href="#section1">Manage Gallery <span class="caret"></span></a></li>
+    <ul class="dropdown-menu">
+      <li><a href="#">ADD Gallery</a></li>
+      <li><a href="#">DELETE Gallery</a></li>
+    </ul>
+  
+      
+        
+        
+      </ul><br>
+    </div>
+    <br>
+   
+
+    <div class="col-sm-9">
+     <div class="well1">
+        <p>Home / Add Books</p>
+     <br>
+   <b>ADD BOOK</b>
+  <br>
+  <br>
+<!--<p>Book Title</p>-->
+      <label for="bname">Book Title:</label><br>
+  <input type="text" id="bname" name="bname"><br><br>
+
+<label for="bfile">Book Document:</label>
+  <input type="file" id="bfile" name="bfile"><br>
+
+<label for="bdes">Short Description:</label><br>
+  <input type="text" id="bdes" name="bdes"><br><br>
+
+<label for="bcvr">Cover Photo:</label>
+  <input type="file" id="bcvr" name="bcvr"><br>
+
+ <input type="submit" value="Submit">
+
+</div>
+</div>
+
+
+<div class="footer">
+  <h5>Developed by Group 8</h5>
+</div>
+
+</body>
+</html>
